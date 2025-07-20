@@ -24,7 +24,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="42c420b9-a571-4f35-bc3d-7af94f57e3c1">
-      <console name="flight-bd" type="STANDARD" schema="public" session="Main"><![CDATA[select * from ticket]]></console>
+      <console name="flight-bd" type="STANDARD" schema="public" session="Main"><![CDATA[select * from users]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -37,8 +37,11 @@
     <connection id="42c420b9-a571-4f35-bc3d-7af94f57e3c1" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="42c420b9-a571-4f35-bc3d-7af94f57e3c1" dataset="public.users" active-filter-id="" />
     <filter-actions connection-id="42c420b9-a571-4f35-bc3d-7af94f57e3c1" dataset="public.flight" active-filter-id="" />
     <filter-actions connection-id="42c420b9-a571-4f35-bc3d-7af94f57e3c1" dataset="public.seat" active-filter-id="" />
+    <filter-actions connection-id="42c420b9-a571-4f35-bc3d-7af94f57e3c1" dataset="public.ticket" active-filter-id="" />
+    <filter-actions connection-id="42c420b9-a571-4f35-bc3d-7af94f57e3c1" dataset="public.user" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
@@ -46,6 +49,14 @@
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
+  </component>
+  <component name="DBNavigator.Project.ParserDiagnosticsManager">
+    <diagnostics-history />
+  </component>
+  <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
+    <recently-used-interfaces>
+      <mapping database-type="POSTGRES" interface-id="DEFAULT" />
+    </recently-used-interfaces>
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
@@ -73,7 +84,7 @@
           <session-user value="postgres" />
         </database>
         <properties>
-          <auto-commit value="false" />
+          <auto-commit value="true" />
         </properties>
         <ssh-settings>
           <active value="false" />
@@ -289,12 +300,19 @@
           <content-type name="DTD" enabled="true" />
           <content-type name="HTML" enabled="true" />
           <content-type name="XHTML" enabled="true" />
+          <content-type name="CSS" enabled="true" />
           <content-type name="Java" enabled="true" />
           <content-type name="SQL" enabled="true" />
           <content-type name="PL/SQL" enabled="true" />
+          <content-type name="JPA QL" enabled="true" />
+          <content-type name="JavaScript" enabled="true" />
           <content-type name="JSON" enabled="true" />
           <content-type name="JSON5" enabled="true" />
+          <content-type name="JSP" enabled="true" />
+          <content-type name="JSPx" enabled="true" />
           <content-type name="Groovy" enabled="true" />
+          <content-type name="FTL" enabled="true" />
+          <content-type name="VTL" enabled="true" />
           <content-type name="YAML" enabled="true" />
           <content-type name="Manifest" enabled="true" />
         </content-types>
